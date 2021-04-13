@@ -5,6 +5,3 @@ else
     Guifont! Cica:h11
 endif
 
-" Clipboard を使う
-set clipboard += unnamedplus
-
