@@ -13,6 +13,8 @@ Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'mattn/vim-sonictemplate'
 Plug 'itchyny/lightline.vim'
 Plug 'ulwlu/elly.vim'
+Plug 'tyru/open-browser.vim'
+Plug 'previm/previm'
 call plug#end()
 
 " mattn/vim-lsp-settings プラグインは、プログラム言語に対応した language server をインストールする機能を提供している。
