@@ -16,6 +16,8 @@ Plug 'w0ng/vim-hybrid'
 Plug 'cocopon/lightline-hybrid.vim'
 Plug 'tyru/open-browser.vim'
 Plug 'previm/previm'
+Plug 'aklt/plantuml-syntax'
+Plug 'weirongxu/plantuml-previewer.vim'
 call plug#end()
 
 " mattn/vim-lsp-settings プラグインは、プログラム言語に対応した language server をインストールする機能を提供している。
