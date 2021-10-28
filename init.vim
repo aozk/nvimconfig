@@ -12,7 +12,8 @@ Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'mattn/vim-sonictemplate'
 Plug 'itchyny/lightline.vim'
-Plug 'ulwlu/elly.vim'
+Plug 'w0ng/vim-hybrid'
+Plug 'cocopon/lightline-hybrid.vim'
 Plug 'tyru/open-browser.vim'
 Plug 'previm/previm'
 call plug#end()
@@ -27,11 +28,11 @@ call plug#end()
 " 外観の設定
 " ==========
 set termguicolors
-colorscheme elly
-let g:lightline = {
-    \ 'colorscheme': 'elly',
-    \ }
 set background=dark
+colorscheme hybrid
+let g:lightline = {
+    \ 'colorscheme': 'hybrid',
+    \ }
 set showbreak=↪
 set number
 
